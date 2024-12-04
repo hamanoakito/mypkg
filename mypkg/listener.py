@@ -21,7 +21,7 @@ def main():
             try:
                 response = future.result()
             except:
-                node.get_logger().info('call faled')
+                node.get_logger().info('faled')
             else:
                 node.get_logger().info("age: {}".format(response.age))
 
