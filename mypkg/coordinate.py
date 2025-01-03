@@ -4,8 +4,11 @@ from std_msgs.msg import Float32MultiArray
 import math
 
 #定数の宣言
+#車輪半径
 R = 1
+#車輪と車輪の間の距離
 TREAD_WIDTH = 30
+#時間
 T = 0.5
 
 #Coordクラスの作成
