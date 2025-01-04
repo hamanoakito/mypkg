@@ -32,7 +32,7 @@ self.left_angular_velocity = 10   #左車輪の角速度 34行目
   - x,y座標の数値を受け取ります
 
 
----
+
 
 
 ### check
