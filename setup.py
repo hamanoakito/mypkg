@@ -23,8 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'coordinate = mypkg.coordinate:main',
-            'publish_check = mypkg.publish_check:main',
+            'calculate = mypkg.calculate:main',
+            'check = mypkg.check:main',
         ],
     },
 )
