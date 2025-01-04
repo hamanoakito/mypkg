@@ -23,3 +23,6 @@ self.right_angular_velocity = 10  #右車輪の角速度 33行目
 self.left_angular_velocity = 10   #左車輪の角速度 34行目
 ```
 ここを変更して実行してください。
+
+####パブリッシュするトピック
+`coordinate`
