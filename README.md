@@ -12,7 +12,7 @@
 ### calculate
 このノードがロボットの座標を計算します。
 - この計算式は東北学院大学の「車輪移動ロボット」ページを参考にしています
-- 詳細は[車輪移動ロボット](https://www.mech.tohoku-gakuin.ac.jp/rde/contents/course/robotics/indexframe.html)をご参照ください
+- 詳細は[車輪移動ロボット](https://www.mech.tohoku-gakuin.ac.jp/rde/contents/course/robotics/wheelrobot.html)をご参照ください
 
 
 #### 使用方法

@@ -17,7 +17,7 @@ T = 0.5
 #Coordクラスの作成
 class Coord(Node):
     def __init__(self):
-        super().__init__("Coord")
+        super().__init__("coord")
         self.pub = self.create_publisher(Float32MultiArray, "coordinate", 10)
         self.create_timer(T, self.calc_cb)
 
