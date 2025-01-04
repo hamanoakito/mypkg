@@ -5,13 +5,13 @@ import launch_ros.actions
 
 
 def generate_launch_description():
-    talker = launch_ros.actions.Node(
+    coordinate = launch_ros.actions.Node(
             package = 'mypkg',
-            executable = 'talker',
+            executable = 'coordinate',
             )
-    listener = launch_ros.actions.Node(
+    publish_check = launch_ros.actions.Node(
             package = 'mypkg',
-            executable = 'listener',
+            executable = 'publish_check',
             output = 'screen'
             )
-    return launch.LaunchDescription([talker, listener])
+    return launch.LaunchDescription([coordinate, publish_check])
